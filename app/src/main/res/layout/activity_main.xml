@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Login">
+    </Button>
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Signup"></Button>
+    <Button
+        android:id="@+id/b3"
+        android:text="Close"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></Button>
+    <ViewStub
+        android:id="@+id/view"
+        android:layout="@layout/login"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ViewStub>
+    <ViewStub
+        android:id="@+id/vie2"
+        android:layout="@layout/signup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ViewStub>
+
+</LinearLayout>
