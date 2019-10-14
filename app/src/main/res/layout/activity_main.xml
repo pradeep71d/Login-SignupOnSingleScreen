@@ -9,14 +9,14 @@
     tools:context=".MainActivity">
     <Button
         android:id="@+id/b1"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="Login">
     </Button>
     <Button
         android:id="@+id/b2"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="Signup"></Button>
@@ -24,7 +24,7 @@
         android:id="@+id/b3"
         android:text="Close"
         android:layout_gravity="center"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"></Button>
     <ViewStub
         android:id="@+id/view"
